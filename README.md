@@ -15,7 +15,7 @@ You can run:
 Runs the app\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-##Available pages
+## Available pages
 The contact list can be found on the main page at: [http://localhost:3000](http://localhost:3000)
 
 Contact of a specific person (where 0 is id) at: [http://localhost:3000/person/0](http://localhost:3000/person/0)

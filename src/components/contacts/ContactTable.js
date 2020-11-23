@@ -157,9 +157,10 @@ class ContactTable extends React.Component{
                             {this.stableSort(fetchedRows, this.getComparator(order, orderBy))
                                 .map((row) => {
                                     return (
-                                        <TableRow component={Link} to={"/person/" + row.id} hover role="checkbox"
-                                                  tabIndex={-1}
-                                                  key={row.code}>
+                                        <TableRow key={row.id}
+                                                  component={Link} to={"/person/" + row.id}
+                                                  hover role="checkbox"
+                                                  tabIndex={-1}>
                                             {columnsPaper.map((column) => {
                                                 const value = row[column.id];
                                                 return (
